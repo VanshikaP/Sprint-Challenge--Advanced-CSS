@@ -163,6 +163,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 12vh;
 }
 .nav-parent {
   border-bottom: 1px solid #dee2e6;
@@ -172,6 +173,14 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.911);
+  margin: 0 27.6%;
+}
+@media (max-width: 500px) {
+  .navbar {
+    margin: 0;
+  }
 }
 .navbar h1 {
   margin: 2% 0;
@@ -338,4 +347,12 @@ footer {
   .blog .blog-gallery .blog-box {
     width: 90%;
   }
+}
+.blog .blog-gallery .blog-box img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.blog .blog-gallery .blog-box h2 {
+  margin: 2% 0;
 }
