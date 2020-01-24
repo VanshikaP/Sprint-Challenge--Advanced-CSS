@@ -308,3 +308,34 @@ footer {
     margin: 0 auto;
   }
 }
+.blog .intro img {
+  padding: 0;
+}
+.blog .intro h2 {
+  padding: 15px;
+}
+.blog .intro p {
+  padding: 0 15px;
+}
+.blog .blog-gallery {
+  border-top: 1px solid #dee2e6;
+  padding: 2% 0;
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: space-between;
+}
+.blog .blog-gallery .blog-box {
+  width: 45%;
+  margin: 2% auto;
+  padding: 2%;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px #454A59;
+}
+@media (max-width: 500px) {
+  .blog .blog-gallery .blog-box {
+    width: 90%;
+  }
+}

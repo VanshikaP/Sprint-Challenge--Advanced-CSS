@@ -1,0 +1,40 @@
+.blog{
+
+    .intro {
+
+        img{
+          padding: 0;
+        }//img
+    
+        h2 {
+          padding: 15px;
+        }
+    
+        p {
+          padding:0 15px;
+        }
+      
+      }
+
+    .blog-gallery{
+        border-top: 1px solid @main-border-color;
+        padding: 2% 0;
+        margin: 2% 0;
+        .flexdisplay();
+        flex-wrap: wrap;
+        align-items: space-between;
+
+        .blog-box{
+            width: 45%;
+            margin: 2% auto;
+            padding: 2%;
+            border: 1px solid @main-border-color;
+            .round-border(5px);
+            box-shadow: 4px 4px 4px @river-bend;
+
+            @media @phone{
+                width: 90%;
+            }
+        }
+    }
+}//blog
