@@ -1,1 +1,33 @@
 // Navigation code here
+.nav-parent{
+    border-bottom: 1px solid @main-border-color;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        margin: 2% 0;
+    }//h1
+
+    nav{
+        width: 60%;
+        margin: 2% 0;
+        display: flex;
+        justify-content: space-between;
+
+        @media @phone{
+            width: 80%;
+        }//media
+
+        a{
+            font-size: 2rem;
+            text-decoration: none;
+        }//a
+
+    }//nav
+
+}//navbar
